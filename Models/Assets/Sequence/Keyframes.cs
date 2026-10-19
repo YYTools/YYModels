@@ -123,35 +123,35 @@ public partial class GMSequence
     public class AssetInstanceKeyframe : AssetKeyframe
     {
         [GameMakerProperty("Id")]
-        public ResourceReference<GMObject> Asset { get; set; }
+        public ResourceReference<GMObject>? Asset { get; set; }
     }
     
     [YYVersion(0)]
     public class AssetSequenceKeyframe : AssetKeyframe
     {
         [GameMakerProperty("Id")]
-        public ResourceReference<GMSequence> Asset { get; set; }
+        public ResourceReference<GMSequence>? Asset { get; set; }
     }
     
     [YYVersion(0)]
     public class AssetParticleSystemKeyframe : AssetKeyframe
     {
         [GameMakerProperty("Id")]
-        public ResourceReference<GMParticleSystem> Asset { get; set; }
+        public ResourceReference<GMParticleSystem>? Asset { get; set; }
     }
     
     [YYVersion(0)]
     public class AssetSpriteKeyframe : AssetKeyframe
     {
         [GameMakerProperty("Id")]
-        public ResourceReference<GMSprite> Asset { get; set; }
+        public ResourceReference<GMSprite>? Asset { get; set; }
     }
     
     [YYVersion(0)]
     public class SpriteFrameKeyframe : AssetKeyframe
     {
         [GameMakerProperty("Id")]
-        public ResourceReference<GMSprite> Asset { get; set; }
+        public ResourceReference<GMSprite>? Asset { get; set; }
     }
     
     [YYVersion(1)]
@@ -212,7 +212,7 @@ public partial class GMSequence
         public TextWrapMode WrapMode { get; set; }
         
         [GameMakerProperty("Id")]
-        public ResourceReference<GMFont> Asset { get; set; }
+        public ResourceReference<GMFont>? Asset { get; set; }
         
         public enum TextWrapMode
         {
@@ -241,7 +241,7 @@ public partial class GMSequence
         public SoundMode Mode { get; set; }
         
         [GameMakerProperty("Id")]
-        public ResourceReference<GMSound> Asset { get; set; }
+        public ResourceReference<GMSound>? Asset { get; set; }
     }
     
     /// <remarks>Unused</remarks>
@@ -249,7 +249,7 @@ public partial class GMSequence
     public class CodeKeyframe : AssetKeyframe
     {
         [GameMakerProperty("Id")]
-        public ResourceReference<GMScript> Asset { get; set; }
+        public ResourceReference<GMScript>? Asset { get; set; }
     }
     
     [YYVersion(0)]
