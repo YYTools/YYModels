@@ -36,7 +36,7 @@ public class ResourceReference<T> : IResourceReference where T : ResourceBase
     ResourceBase? IResourceReference.Resource 
     { 
         get => this.Resource; 
-        set => this.Resource = (T?)value; 
+        set => this.Resource = value as T; 
     }
     
     /// <summary>

@@ -23,9 +23,9 @@ public enum TargetPlatforms : long
   UbuntuYYC = 134217728,
   WindowsPhoneYYC = 268435456,
   Windows8YYC = 536870912,
-  Vita = 2147483648,
+  Reddit = 2147483648,
   PS4 = 4294967296,
-  VitaYYC = 68719476736,
+  RedditYYC = 68719476736,
   PS4YYC = 137438953472,
   PS3 = 2199023255552,
   PS3YYC = 4398046511104,
@@ -44,6 +44,8 @@ public enum TargetPlatforms : long
   XboxSeriesYYC = 4611686018427387904,
   WebAssembly = -9223372036854775808,
   OperaGX = 17179869184,
+  Switch2 = 8589934592,
+  Switch2YYC = 274877906944,
   LegacyPlatforms = 
       SwitchYYC | Switch | 
       TVOSYYC | TVOS | 
@@ -52,12 +54,12 @@ public enum TargetPlatforms : long
       GMPlayer | 
       PS3YYC | PS3 | 
       PS4YYC | PS4 | 
-      VitaYYC | Vita | 
+      RedditYYC | Reddit | 
       Windows8YYC | WindowsPhoneYYC | UbuntuYYC | MacOSXYYC | IOSYYC |
-      Windows8 | WindowsPhone | Ubuntu | MacOSX | IOS | 
-      AndroidYYC | WindowsYYC | 
-      Windows8JavaScript | 
-      SteamWorkshop | 
-      Windows | HTML5 | Android | IOS | MacOSX,
+      SmartwatchYYC | Smartwatch | 
+      Windows8 | AndroidYYC | WindowsYYC | 
+      SmartwatchJS | Windows8JavaScript | 
+      SteamWorkshop | WindowsPhone | 
+      Ubuntu | Windows | HTML5 | Android | IOS | MacOSX,
   All = -1,
 }
